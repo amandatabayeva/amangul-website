@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Primary SEO -->
+	<title>Amangul Atabayeva | Frontend Developer &amp; UI/UX Designer — Seattle, WA</title>
+	<meta name="description"
+		content="Portfolio of Amangul Atabayeva — a Seattle-based frontend developer and UI/UX designer with 5+ years of branding, graphic design, and web development experience. HTML, CSS, JavaScript, WordPress." />
+	<meta name="author" content="Amangul Atabayeva" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords"
+		content="Amangul Atabayeva, frontend developer, UI UX designer, Seattle, graphic designer, HTML CSS JavaScript, WordPress, portfolio" />
+
+	<!-- Open Graph (social sharing) -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Amangul Atabayeva | Frontend Developer &amp; UI/UX Designer" />
+	<meta property="og:description"
+		content="Seattle-based frontend developer and UI/UX designer with 5+ years of branding and web development experience." />
+	<meta property="og:locale" content="en_US" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Amangul Atabayeva | Frontend Developer &amp; UI/UX Designer" />
+	<meta name="twitter:description"
+		content="Seattle-based frontend developer and UI/UX designer with 5+ years of branding and web development experience." />
+
+	<!-- Structured Data (JSON-LD) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Amangul Atabayeva",
+		"jobTitle": "Frontend Developer & UI/UX Designer",
+		"email": "amandatabayeva.g@gmail.com",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Seattle",
+			"addressRegion": "WA",
+			"addressCountry": "US"
+		},
+		"knowsAbout": ["HTML", "CSS", "JavaScript", "jQuery", "WordPress", "Joomla", "Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign", "UI/UX Design", "Branding"],
+		"alumniOf": [
+			{
+				"@type": "CollegeOrUniversity",
+				"name": "Edmonds College"
+			},
+			{
+				"@type": "CollegeOrUniversity",
+				"name": "Mehmet Akif Ersoy University"
+			}
+		]
+	}
+	</script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+	<!-- ─── Navigation ─── -->
+	<nav class="nav" id="nav">
+		<a href="#hero" class="nav__logo">Amangul Atabayeva</a>
+		<button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+			<span></span><span></span><span></span>
+		</button>
+		<ul class="nav__links" id="navLinks">
+			<li><a href="#pivot">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="nav__backdrop" id="navBackdrop"></div>
+
+	<!-- ─── Hero ─── -->
+	<header class="hero" id="hero">
+		<div class="hero__content">
+			<p class="hero__label">UI/UX Engineer → Frontend Developer</p>
+			<h1 class="hero__title">
+				Where <span class="hero__accent">Design Thinking</span><br />
+				meets <span class="hero__accent">Clean Code</span>
+			</h1>
+			<p class="hero__subtitle">
+				5+ years of visual design expertise, now building pixel-perfect interfaces with HTML, CSS &amp;
+				JavaScript.
+			</p>
+			<div class="hero__cta">
+				<a href="#projects" class="btn btn--primary">View Work</a>
+				<a href="#contact" class="btn btn--outline">Get in Touch</a>
+			</div>
+		</div>
+		<div class="hero__visual">
+			<div class="hero__blob"></div>
+		</div>
+	</header>
+
+	<!-- ─── The Pivot (About) ─── -->
+	<section class="section pivot" id="pivot">
+		<div class="section__inner reveal">
+			<span class="section__tag">The Pivot</span>
+			<h2 class="section__title">From Pixels to Code</h2>
+			<div class="pivot__text">
+					<p>
+						For over five years I shaped brands, designed marketing campaigns, and built social-media
+						identities for companies across Turkey, Turkmenistan, and Malaysia. I learned that great visuals
+						are only half the story — the other half lives in the code that delivers them.
+					</p>
+					<p>
+						Now, while pursuing a <strong>B.A.S. in Web Application &amp; Cloud Development</strong> at
+						Edmonds College, I'm channeling that same creative precision into front-end engineering —
+						writing semantic HTML, modular CSS, and purposeful JavaScript.
+					</p>
+					<p>
+						My goal: to sit at the intersection of design systems and clean code, translating ideas into
+						performant, accessible user experiences.
+					</p>
+					<ul class="pivot__facts">
+						<li><strong>Based in</strong> Seattle, WA</li>
+						<li><strong>Speaks</strong> Turkmen, Turkish, English, Russian</li>
+						<li><strong>Currently</strong> Studying Web &amp; Cloud Development at Edmonds College</li>
+					</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- ─── Technical Arsenal ─── -->
+	<section class="section skills" id="skills">
+		<div class="section__inner reveal">
+			<span class="section__tag">Technical Arsenal</span>
+			<h2 class="section__title">Tools &amp; Technologies</h2>
+			<div class="skills__grid">
+
+				<div class="skill-card">
+					<div class="skill-card__icon">&#60;/&#62;</div>
+					<h3>HTML5</h3>
+					<p>Semantic, accessible markup</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">{ }</div>
+					<h3>CSS3</h3>
+					<p>Flexbox, Grid, animations</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">JS</div>
+					<h3>JavaScript</h3>
+					<p>ES6+, DOM, async patterns</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">jQ</div>
+					<h3>jQuery</h3>
+					<p>DOM manipulation &amp; plugins</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">Py</div>
+					<h3>Python</h3>
+					<p>Scripting &amp; automation</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">WP</div>
+					<h3>WordPress</h3>
+					<p>CMS theming &amp; content</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">Jm</div>
+					<h3>Joomla</h3>
+					<p>Content management</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">Ps</div>
+					<h3>Photoshop</h3>
+					<p>Photo editing &amp; compositing</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">Ai</div>
+					<h3>Illustrator</h3>
+					<p>Vector design &amp; branding</p>
+				</div>
+				<div class="skill-card">
+					<div class="skill-card__icon">Id</div>
+					<h3>InDesign</h3>
+					<p>Print &amp; layout publishing</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- ─── Projects ─── -->
+	<section class="section projects" id="projects">
+		<div class="section__inner reveal">
+			<span class="section__tag">Selected Work</span>
+			<h2 class="section__title">Projects</h2>
+			<div class="projects__grid">
+
+				<article class="project-card">
+					<div class="project-card__body">
+						<h3>Brand Identity System</h3>
+						<p>Complete visual identity including logo, typography, color palette, and brand guidelines for
+							a hospitality chain.</p>
+						<ul class="project-card__tags">
+							<li>Illustrator</li>
+							<li>InDesign</li>
+							<li>Branding</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<div class="project-card__body">
+						<h3>Social Media Campaign</h3>
+						<p>Designed and managed seasonal campaigns for Kahve Dunyasi with templated content across
+							Instagram, Facebook, and web.</p>
+						<ul class="project-card__tags">
+							<li>Photoshop</li>
+							<li>WordPress</li>
+							<li>Marketing</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<div class="project-card__body">
+						<h3>Portfolio Website</h3>
+						<p>Responsive personal portfolio built with semantic HTML, CSS Grid, and vanilla JavaScript —
+							the site you're viewing now.</p>
+						<ul class="project-card__tags">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+						</ul>
+					</div>
+				</article>
+
+				<article class="project-card">
+					<div class="project-card__body">
+						<h3>Promotional Merchandise</h3>
+						<p>Print-ready artwork for branded merchandise — mugs, T-shirts, notebooks, caps, and medals for
+							events and campaigns.</p>
+						<ul class="project-card__tags">
+							<li>Illustrator</li>
+							<li>Print</li>
+							<li>Packaging</li>
+						</ul>
+					</div>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- ─── Experience ─── -->
+	<section class="section experience" id="experience">
+		<div class="section__inner reveal">
+			<span class="section__tag">Career Path</span>
+			<h2 class="section__title">Experience</h2>
+			<div class="timeline">
+
+				<div class="timeline__item">
+					<div class="timeline__marker"></div>
+					<div class="timeline__content">
+						<span class="timeline__date">2023 — 2024</span>
+						<h3>Branding Manager Assistant</h3>
+						<p class="timeline__place">Australian Malaysian International — Kuala Lumpur, Malaysia</p>
+						<ul class="timeline__bullets">
+							<li>Supported day-to-day business operations, administrative coordination, and internal follow-up across client, partner, and management activities.</li>
+							<li>Led branding and visual communication efforts to strengthen the company identity across presentations, digital materials, and promotional content.</li>
+							<li>Developed marketing and brand assets for business outreach, startup-focused communications, and cross-border commercial initiatives.</li>
+							<li>Helped maintain website and content updates to ensure brand consistency, clear messaging, and accurate service information.</li>
+							<li>Assisted with campaign planning, partnership communications, and client-facing materials aligned with the company's consulting and growth-focused services.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="timeline__item">
+					<div class="timeline__marker"></div>
+					<div class="timeline__content">
+						<span class="timeline__date">2020 — 2023</span>
+						<h3>Senior Graphic Designer &amp; Social Media Manager</h3>
+						<p class="timeline__place">Kahve Dunyasi — Ashgabat, Turkmenistan</p>
+						<ul class="timeline__bullets">
+							<li>Developed branded social media content and campaign visuals that strengthened digital presence and supported audience engagement.</li>
+							<li>Designed promotional graphics, layouts, and marketing assets tailored to business goals and platform requirements.</li>
+							<li>Partnered with internal teams to shape creative concepts, maintain visual consistency, and deliver polished content on schedule.</li>
+							<li>Updated website content through WordPress CMS, including promotional banners, images, campaign copy, and product-related visuals.</li>
+							<li>Supported digital advertising and campaign management by preparing creative assets, updating campaign visuals, and aligning content with promotional calendars.</li>
+							<li>Helped execute mass email campaigns by designing email graphics, formatting content, and preparing marketing materials for customer outreach.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="timeline__item">
+					<div class="timeline__marker"></div>
+					<div class="timeline__content">
+						<span class="timeline__date">2016 — 2020</span>
+						<h3>Graphic Designer</h3>
+						<p class="timeline__place">Sopromo Promotional Organization &amp; Advertising Agency — Antalya, Turkey</p>
+						<ul class="timeline__bullets">
+							<li>Produced print-ready designs for promotional merchandise including mugs, notebooks, caps, T-shirts, medals, and other branded materials.</li>
+							<li>Turned client ideas and brand requirements into clear, marketable visual concepts for campaigns and events.</li>
+							<li>Managed multiple concurrent design requests while meeting deadlines and maintaining strong production quality.</li>
+							<li>Adapted artwork and layouts to meet production specifications for different materials, formats, and branding needs.</li>
+							<li>Coordinated with clients and production teams to refine design details and ensure accurate final output.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="timeline__item">
+					<div class="timeline__marker"></div>
+					<div class="timeline__content">
+						<span class="timeline__date">2015 — 2016</span>
+						<h3>Graphic Designer</h3>
+						<p class="timeline__place">Katre Advertising / Print / Congress Organization Agency — Antalya, Turkey</p>
+						<ul class="timeline__bullets">
+							<li>Contributed to corporate identity development by creating visual assets for advertising, print, and organizational campaigns.</li>
+							<li>Designed digital and social media materials that supported brand communication and public-facing promotions.</li>
+							<li>Prepared layout concepts and design files for client presentations, print production, and campaign execution.</li>
+							<li>Collaborated with colleagues on event, congress, and promotional materials to ensure consistent branding across deliverables.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="timeline__item">
+					<div class="timeline__marker"></div>
+					<div class="timeline__content">
+						<span class="timeline__date">2013 — 2015</span>
+						<h3>Teacher Assistant</h3>
+						<p class="timeline__place">Nilay Ozsan Education Center — Antalya, Turkey</p>
+						<ul class="timeline__bullets">
+							<li>Supported art instruction for young learners in charcoal, gouache, watercolor, and traditional painting techniques.</li>
+							<li>Helped create an encouraging classroom environment through lesson preparation, one-on-one student support, and guided creative activities.</li>
+							<li>Prepared art materials, visual references, and classroom displays to support engaging, hands-on learning sessions.</li>
+							<li>Encouraged creativity and confidence by helping students develop foundational drawing, color, and composition skills.</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- ─── Contact ─── -->
+	<footer class="section contact" id="contact">
+		<div class="section__inner reveal">
+			<span class="section__tag">Say Hello</span>
+			<h2 class="section__title">Let's Connect</h2>
+			<p class="contact__text">
+				I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+			</p>
+			<a href="mailto:amandatabayeva.g@gmail.com"
+				class="btn btn--primary contact__email">amandatabayeva.g@gmail.com</a>
+			<ul class="contact__socials">
+				<li><a href="mailto:amandatabayeva.g@gmail.com" aria-label="Email">Email</a></li>
+			</ul>
+			<p class="contact__copy">&copy; 2026 Amangul Atabayeva. Designed &amp; coded with care.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
